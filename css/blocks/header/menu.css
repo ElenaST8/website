@@ -1,0 +1,109 @@
+.contacts_block {
+  background-image: url(../../../img/Vector-Smart-Object.jpg);
+}
+
+.dark {
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 57px;
+  justify-items: start;
+  align-items: center;
+  color: #ffffff;
+}
+
+.login,
+.chat {
+  width: 50px;
+  height: 25px;
+  padding-left: 12px;
+}
+
+.col-xl-4 {
+  font-family: "Roboto-Thin";
+  font-size: 16px;
+}
+
+.col-xl-2:nth-child(3),
+.col-xl-2:nth-child(4) {
+  font-size: 19px;
+  font-family: "Roboto-Regular";
+  text-transform: uppercase;
+  padding-right: 0;
+  text-align: end;
+}
+
+.light {
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: end;
+}
+.bg-nav {
+  background-color: #1b7fd0;
+  color: #ffffff;
+  font-family: "Roboto-Regular";
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.bg-nav ul {
+  list-style-type: none;
+}
+.bg-nav li {
+  position: relative;
+  flex-grow: 1;
+  padding: 10px 0;
+}
+.bg-nav ul span {
+  position: absolute;
+}
+.bg-nav li:hover {
+  background-color: #caddea;
+}
+.bg-nav li:hover span {
+  opacity: 0;
+}
+.bg-nav li:hover a {
+  color: #1b7fd0;
+}
+.bg-nav ul a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.bg-nav a:hover {
+  text-decoration: none;
+}
+
+.col-12 {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .bg-nav {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .bg-nav ul {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-nav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .bg-nav ul {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
