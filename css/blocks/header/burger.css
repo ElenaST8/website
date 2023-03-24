@@ -1,17 +1,25 @@
-.icon {
-  display: none;
-}
-
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   .icon {
     display: block;
     width: 80px;
     color: #fff;
     text-align: center;
-    font-size: 25px;
+    font-size: 31px;
   }
 
   .bg-nav ul {
     display: none;
   }
+
+  .bg-banner {
+    width: auto !important;
+  }
+
+  .full-title {
+    width: auto !important;
+  }
+}
+
+.burger-menu {
+  text-align: end;
 }
