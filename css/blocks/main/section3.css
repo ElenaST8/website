@@ -1,0 +1,136 @@
+.accordion {
+  width: 1110px;
+  margin: 0 auto;
+}
+.accordion-button,
+.accordion-body h3 {
+  color: #1b7fd0;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+}
+
+.accordion-button {
+  line-height: 2.182;
+  background-color: #f4f6fa;
+  border: none;
+}
+
+.accordion-header {
+  display: flex;
+}
+
+.accordion-header::before {
+  content: "";
+  background-image: url(../../../img/css_sprites.png);
+  width: 30px;
+  height: 63px;
+  background-position: -5px -227px;
+}
+
+.accordion-body {
+  background-color: #fff;
+  padding: 20px 30px;
+}
+
+.accordion-body h3 {
+  padding-left: 0;
+}
+
+.accordion-body p {
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.collapse.show .d7 {
+  border-top: 19px solid #fff;
+  border-right: 32px solid transparent;
+}
+
+.collapse.show {
+  filter: drop-shadow(4px 4px 7px #9bb6bebf);
+}
+
+.table,
+.sectionForm,
+.priceCalculator {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.priceCalculator {
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  letter-spacing: 0.8px;
+}
+
+.table {
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.sectionForm {
+  background-color: #1b7fd0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form-control-lg {
+  border-radius: 0;
+  border: 2px solid #cccccc;
+  width: 240px;
+  color: #013056;
+  font-family: "Roboto-Regular";
+  font-size: 17px;
+}
+
+.bigger {
+  width: 410px;
+}
+
+.smaller {
+  width: 145px;
+  margin-top: 45px;
+  margin-bottom: 18px;
+}
+
+.sectionForminput p {
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Times New Roman";
+  color: #ffffff;
+}
+
+.sectionForminput {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+table th,
+.hours {
+  font-family: "Roboto-Medium";
+  color: #013056;
+  text-align: center;
+  font-size: 17px;
+}
+
+table th {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+table tr {
+  font-family: "Roboto-Regular";
+  color: #1b7fd0;
+  text-align: center;
+}
+
+.filterfortable {
+  filter: drop-shadow(4px 4px 7px #9bb6bebf);
+}

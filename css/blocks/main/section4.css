@@ -1,0 +1,54 @@
+.chat-block {
+  width: 1000px;
+  margin: 0 auto;
+  background-image: url(../../../img/Block_chat.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #caddea;
+  padding: 13px 90px;
+}
+
+.chat-inf {
+  font-family: "Roboto-Thin";
+  text-align: right;
+  padding-top: 14px;
+  font-size: 20px;
+}
+
+.livechat {
+  border: 2px solid #caddea;
+  padding: 11px 38px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.chat2 {
+  width: 98px;
+  height: 25px;
+}
+
+.livechat p {
+  font-family: "Roboto-Regular";
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.companyemploys {
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  margin-top: 18px;
+  margin-bottom: 28px;
+  text-align: justify;
+}
+.table {
+  border-bottom: 1px solid #caddea;
+}
+
+.table2 {
+  padding: 0 25px 25px 25px;
+  background-color: #fff;
+  width: 1000px;
+  margin: 0 auto;
+}

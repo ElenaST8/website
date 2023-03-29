@@ -1,0 +1,116 @@
+.cards {
+  height: 72px;
+  background-color: #caddea;
+}
+
+.bg-cards {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft-cards {
+  width: 790px;
+}
+
+.ft-cards img,
+.icon-web img {
+  width: 72px;
+  height: 44px;
+  margin-right: 7px;
+  margin-top: 15px;
+}
+
+.icon-web img {
+  height: 33px;
+}
+
+.icon-web {
+  margin-right: 54px;
+}
+
+.lastblock-bf {
+  background-image: url(../../../img/footer.jpg);
+}
+
+.textlastblock {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+  color: #caddea;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.footer-ul,
+.hr {
+  width: 1110px;
+  margin: 0 auto;
+}
+hr {
+  border-top: 1px solid #caddea;
+  position: relative;
+}
+.d1 {
+  width: 35px;
+  height: 35px;
+  background: #caddea;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -95%);
+}
+.d1 .plus {
+  font-size: 43px;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-41%, -51%);
+  position: absolute;
+}
+
+.footer-ul ul {
+  list-style-type: none;
+}
+.footer-ul li {
+  position: relative;
+  flex-grow: 1;
+  padding: 10px 0;
+}
+.footer-ul ul span {
+  position: absolute;
+  color: #caddea;
+}
+
+.footer-ul ul a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-ul a:hover {
+  text-decoration: none;
+}
+
+.footer-ul .col-12 {
+  padding: 0;
+  margin-top: 30px;
+}
+
+.footer-ul .bussiness {
+  text-align-last: left;
+}
+
+.thelast {
+  font-family: "Arial Narrow";
+  color: #caddea;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}

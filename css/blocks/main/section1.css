@@ -1,0 +1,142 @@
+main {
+  background-color: #f4f6fa;
+  position: relative;
+}
+
+.bg-img {
+  position: absolute;
+}
+
+.main-bg1,
+.block-boundaries {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.main-firstblock,
+.main-secondblock {
+  padding-top: 42px;
+  filter: drop-shadow(4px 4px 7px #9bb6bebf);
+}
+
+.main-firstblock .d7,
+.main-secondblock .d7 {
+  border-top: 18px solid #caddea;
+  border-right: 28px solid transparent;
+}
+
+.main-title,
+.important-inf,
+.main-title2 {
+  color: #1b7fd0;
+  text-transform: uppercase;
+}
+
+.main-title,
+.main-title2 {
+  background-color: #caddea;
+  text-align: center;
+  padding: 16px 148px 13px 151px;
+  font-family: "Roboto-Bold";
+}
+
+.main-title h2,
+.main-title2 h2 {
+  font-size: 26px !important;
+  margin: 0;
+}
+
+.lorem,
+.note,
+.sectionparagraph,
+.paragraph_secondblock {
+  font-size: 17px;
+  font-family: "Arial Narrow";
+  text-align: justify;
+}
+
+.lorem {
+  margin: 22px auto 28px auto;
+  font-weight: 500;
+}
+
+.important-inf {
+  font-size: 22px;
+  font-family: "Roboto-Medium";
+}
+
+.titlesection {
+  font-size: 21px;
+  /* color: #1b7fd0; */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.last {
+  margin-bottom: 37px;
+}
+
+.paragraph_secondblock {
+  color: #e1eef9;
+}
+
+.main-bg2 {
+  background-image: url(../../../img/Vector-Smart-Object-copy-3.jpg);
+}
+
+.main-secondblock {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.main-secondblock .d7 {
+  margin-bottom: 20px;
+}
+
+.main-bg2 .second {
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+
+.main-bg-3 {
+  width: 670px;
+  margin: 0 auto;
+  filter: drop-shadow(4px 4px 7px #9bb6bebf);
+}
+
+.main-thirdblock {
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+
+.main-title3 {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.main-bg-3 .d7 {
+  border-top: 14px solid #ffffff;
+  border-right: 30px solid transparent;
+  margin-bottom: 44px;
+}
+
+.main-title3 h3,
+.main-title3 li::marker,
+.titlesection {
+  color: #1b7fd0;
+}
+
+.main-title3 h3 {
+  padding-left: 39px;
+}
+
+.main-title3 ul {
+  padding-left: 64px;
+  margin-bottom: 0;
+  font-family: "Roboto-Regular";
+  line-height: 31px;
+}
+
+.main-title3 li::marker {
+  font-size: 20px;
+}

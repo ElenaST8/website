@@ -2,3 +2,9 @@
 @import "blocks/header/menu.css";
 @import "blocks/header/burger.css";
 @import "blocks/header/banner.css";
+@import "blocks/main/section1.css";
+@import "blocks/main/section2.css";
+@import "blocks/main/section3.css";
+@import "blocks/main/section4.css";
+@import "blocks/main/section5_Form.css";
+@import "blocks/footer/footer.css";
